@@ -1,11 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
-</head>
-<body>
-    <p>Hello Flask!</p>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Taskmaster App</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="content">
+<table>
+    <caption>Task Master</caption>
+    <tr>
+        <th>Task</th>
+        <th>Added</th>
+        <th>Actions</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>
+            <a href="#">Delete</a>
+            <br>
+            <a href="#">Update</a>
+        </td>
+    </tr>
+</table>
+<br><br>
+<form action="/" method="POST">
+    <input type="text" name="content" id="content">
+    <input type="submit" value="Add Task">
+</form>
+</div>
+
+
+{% endblock %}

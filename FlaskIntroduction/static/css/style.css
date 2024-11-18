@@ -1,0 +1,36 @@
+* {
+    text-decoration: none;
+}
+
+html, body {
+    min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
+    position: absolute;
+    margin: auto;
+}
+
+caption {
+    color: green;
+    font-weight:300;
+    font-family: sans-serif;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+    max-width: max-content;
+    border: 2px solid black;
+}
+
+tr, th {
+    border: 2px solid black;
+}
+
+.content {
+    margin: 10% 40%;
+}

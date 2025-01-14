@@ -53,6 +53,11 @@ class ClassManager:
 
         self.groups.append(group)
 
+    def printSchedule(self):
+            print("\nRooster voor Software Ontwikkeling:\n")
+            for group in self.groups:
+                print(group)  # Roept de __str__()-methode van Group aan
+
 
 # Testcode
 if __name__ == "__main__":
@@ -70,8 +75,8 @@ if __name__ == "__main__":
     ]
 
     # Groepen aanmaken
-    group_a = Group("A", max_capacity=4)
-    group_e = Group("E", max_capacity=6)
+    group_a = Group("A")
+    group_e = Group("E")
 
     # Studenten toevoegen
     group_a.addStudent(students[0])

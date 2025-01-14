@@ -70,6 +70,5 @@ class TestClassManager(unittest.TestCase):
         self.assertIn("A", group_codes)  # Controleer dat "A" aanwezig is
 
 
-
 if __name__ == "__main__":
     unittest.main()

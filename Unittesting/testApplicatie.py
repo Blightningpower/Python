@@ -71,7 +71,7 @@ if __name__ == "__main__":
         Student(3456, "Fatima"),
         Student(4567, "Mirjam"),
         Student(5678, "Donald"),
-        Student(6789, "Jahmal"),
+        Student(6789, "Jahmal")
     ]
 
     # Groepen aanmaken
